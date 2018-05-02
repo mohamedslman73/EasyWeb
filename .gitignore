@@ -1,0 +1,13 @@
+.idea/*
+.idea/workspace.xml
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/storage/logs/
+/public/uploads/*
+*.env
+/public/*.htaccess
+/crm/*
+**/public/blog/*
+/vendor/*

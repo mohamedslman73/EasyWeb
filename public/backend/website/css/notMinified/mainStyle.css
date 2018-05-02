@@ -1,0 +1,1642 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Padauk;
+}
+
+
+input:focus, input:focus, button:focus, select:focus{
+    outline: none;
+}
+
+/*global */
+
+/****START HOME****/
+
+.home-school-abdo{
+    background: url('../pic/home/cover.png')  center fixed no-repeat;
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 100px;
+    -webkit-background-size: cover;
+    -Moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 4px #053460 solid;
+}
+
+.home-school-panel a {
+    text-decoration: none;
+    color: #053460;
+}
+
+.home-school-abdo .home-school-ul-right .home-school-panel  li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #053460;
+    cursor: pointer;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.home-school-abdo .home-school-ul-right .home-school-panel  li:hover{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #0a618a;
+    cursor: pointer;
+
+    /*font-size: 15px;*/
+    /* font-weight: bold; */
+}
+
+
+
+/*.home-school-abdo .home-header-nave{*/
+/*padding-left: 70px;*/
+/*padding-right: 70px;*/
+/*}*/
+
+.home-school-abdo .home-school-ul-right .home-school-panel .li-1 img {
+    width: 26px;
+    height: 18px;
+}
+
+
+.home-school-abdo .home-school-ul-right ul .home-register-button{
+    margin-left: 40px;
+    margin-top: 22px;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: linear-gradient(to right, #053460 , #0a618a);
+
+}.home-school-abdo .home-school-ul-right ul .home-register-button:hover{
+     margin-left: 40px;
+     margin-top: 22px;
+     color: white;
+     padding: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     border-top-left-radius: 20px;
+     background: linear-gradient(to right, #0a618a , #0a618a);
+ }
+
+
+.home-school-abdo .home-school-ul-right ul .home-icon i{
+    font-size: 20px;
+}
+
+.home-school-abdo .home-school-slogan{
+    margin-top: 130px;
+}
+
+.home-school-abdo .home-school-slogan .up-slogan {
+    letter-spacing: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.home-school-abdo .home-school-slogan .down-slogan {
+    letter-spacing: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.home-school-abdo .home-school-slogan .up-slogan{
+    font-size: 30px;
+}
+
+.home-school-abdo .home-school-slogan .down-slogan{
+    font-size: 47px;
+    letter-spacing: 25px;
+}
+
+
+/*section dropDown*/
+
+#small-bars{
+    display: none;
+    margin-left: 30px;
+}
+
+#small-bars{
+    margin-top: 40px;
+    color: #054360;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+
+.cover-bars{
+
+    display: none;
+    background-color: #0a618a;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 100;
+    right: .01%;
+}
+
+
+.cover-bars ul li a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cover-bars ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 0;
+}
+
+
+.cover-bars ul li:hover {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 0;
+    background-color: #207FAA;
+}
+
+@media(max-width:1035px){
+    .home-school-panel{
+        display: none;
+    }
+    #small-bars{
+        display: block;
+    }
+
+}
+
+.home-school-abdo .home-slogan button {
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: linear-gradient(to right, #053460, #0a618a);
+}
+
+
+.home-school-abdo .home-slogan button:hover {
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: linear-gradient(to right, #0a618a, #0a618a);
+}
+
+
+
+
+.home-school-abdo .home-slogan .slogan-button-schools  a{
+    text-decoration: none;
+    color: white;
+}
+
+/* user logo & droppDown */
+.home-school-abdo .home-school-ul-right .home-school-panel button {
+    border-color: #053460;
+}
+
+.my-dropdown {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 30px;
+    float: right;
+}
+
+
+.my-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.my-dropdown {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.dropdown__item {
+    align-self: center;
+    margin-left: .5em !important; /*damn you bootstrap!*/
+}
+
+.my-dropdown > .name {
+    overflow: hidden;
+    width: 0%;
+    transition: width 300ms ease-out;
+}
+
+.my-dropdown > .name-shown {
+    width: 60%;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.home-school-abdo .home-school-ul-right .home-school-panel .drop-d-m-user {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 17px;
+    color: #053460;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* drop down lang */
+.home-school-abdo .home-school-ul-right .home-school-panel .li-1 {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #053460;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.home-school-abdo .home-header-nave .second-dropDown .block-dropDown {
+    display: none;
+    background-color: #0a618a;
+    padding-left: 0px;
+    padding-right: 9px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 100;
+}
+
+.home-school-abdo .home-header-nave .second-dropDown .block-dropDown li {
+    float: none;
+    color: red;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+    font-weight: 100;
+}
+
+.dropdownMenu2{
+    background-color: #214969;
+}
+
+.dropdownMenu2 li:hover{
+    text-decoration: none;
+    background-color: #0a618a;
+}
+
+
+.cover-bars ul li a:hover {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #0a618a;
+}
+
+.cover-bars ul li:hover{
+    background-color: #0a618a;
+}
+
+.searsh-schol-m input{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.73);
+    width: 50%;
+    height: 35px;
+    border-radius: 20px;
+    border: solid 1px #0a618a;
+    text-align: center;
+    font-size: 15px;
+    color: #053460;
+    /*background: url("../pic/add.png") no-repeat;*/
+}
+
+.searsh-schol-m input::-webkit-input-placeholder {
+    font-size: 15px;
+    line-height: 3;
+    color: #0a618a;
+    letter-spacing: 3px;
+}
+
+ .left-loc h5 {
+    float: right;
+     margin-right: -50px;
+}
+
+.right-msg h5{
+    float: left;
+    /*margin-right: -50px;*/
+    padding-left: 51px;
+}
+
+@media (max-width: 749px) {
+    .left-loc h5 {
+        text-align: center;
+        margin-right: 0px;
+
+    }
+}
+
+/************************ Start who-we-are*************************/
+
+.who-we-are{
+   background: url('../pic/who/texture1.png')  center  no-repeat;
+   width: 100%;
+   min-height: 400px;
+  -webkit-background-size: cover;
+  -Moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+.who-we-are{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.who-we-are .left img{
+    width: 45px;
+    margin-top: -25px;
+    width: 55px;
+    height: 60px;
+    margin-top: -25px;
+    background-color: #EFEDED;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*box image*/
+.who-we-are .middle img{
+    /*width: 55px;*/
+    /*height: 60px;*/
+    /*margin-top: -25px;*/
+    /*background-color: #EFEDED;*/
+    /*padding: 10px;*/
+    /*border-radius: 5px;*/
+    /*border: 1px solid #358BC4;*/
+    width: 45px;
+    margin-top: -25px;
+    width: 55px;
+    height: 60px;
+    margin-top: -25px;
+    background-color: #EFEDED;
+    padding: 10px;
+    border-radius: 5px;
+}
+.who-we-are .right img{
+    width: 45px;
+    margin-top: -25px;
+    width: 55px;
+    height: 60px;
+    margin-top: -25px;
+    background-color: #EFEDED;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+         /**box style**/
+.who-we-are .left{
+    background-color:#F2F2F2;
+    height: 350px;
+    border-radius: 15px;
+    max-width: 350px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.who-we-are .right{
+    background-color:#F2F2F2;
+    height: 350px;
+    border-radius: 15px;
+    max-width: 350px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 15px;
+     padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+     /*margin-left: 20px;*/
+}
+
+.who-we-are .left:hover{
+    background-color:#F2F2F2;
+    height: 390px;
+    border-radius: 15px;
+    max-width: 370px;
+    margin-top: -15px;
+    margin: 0 auto;
+    float: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    /*margin-left: 20px;*/
+}
+
+
+.who-we-are .middle:hover{
+    background-color:#F2F2F2;
+    height: 390px;
+    border-radius: 15px;
+    max-width: 370px;
+    margin-top: -15px;
+    margin: 0 auto;
+    float: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+     /*margin-left: 20px;*/
+}
+
+
+.who-we-are .right:hover{
+    background-color:#F2F2F2;
+    height: 390px;
+    border-radius: 15px;
+    max-width: 370px;
+    margin-top: -15px;
+    margin: 0 auto;
+    float: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+     /*margin-left: 20px;*/
+}
+
+.who-we-are .middle{
+    background-color:#F2F2F2;
+    height: 350px;
+    border-radius: 15px;
+    max-width: 350px;
+    margin: 0 auto;
+    float: none;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    min-height: 350px;
+    /*background-color:#F2F2F2;*/
+    /*height: 390px;*/
+    /*border-radius: 15px;*/
+    /*max-width: 370px;*/
+    /*margin-top: -15px;*/
+    /*margin: 0 auto;*/
+    /*float: none;*/
+    /*padding-right: 10px;*/
+    /*padding-left: 10px;*/
+    /*padding-bottom: 15px;*/
+}
+
+.who-we-are p{
+    color: #1D78A3;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+
+
+.who-we-are .head1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.who-we-are .head2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.who-we-are .head3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+@media(max-width:991px){
+   .who-we-are{
+      height: 1350px;
+   }
+   
+   .who-we-are .who{
+      padding-top: 50px;
+   }
+   
+}
+
+
+/*********************Strat section about us *********************/
+
+.about-us {
+    background-color: #F2F2F2;
+    min-height: 300px;
+    /*padding-bottom: 30px;*/
+    padding-top: 30px;
+}
+
+.about-us  .right img{
+    /* height: 450px; */
+    width: 241px;
+    margin-top: -80px;
+}
+
+.about-us .about-head img{
+    max-width: 600px;
+    position: absolute;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 959px) and (min-width: 320px) {
+    .about-us .about-head img{
+        width: 500px;
+    }
+}
+
+
+
+
+@media (min-width: 794px) {
+    .schools-partners .header-school img{
+        display: none;
+    }
+
+}
+
+.abou-us
+
+.about-us .about-button a{
+    text-decoration: none;
+}
+
+.about-us .about-button a{
+    color: white;
+}
+
+.about-us .about-button{
+    background-color: #054360;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 30px;
+    position: relative;
+}
+
+
+.about-us .about-head{
+    font-size: 28px;
+    font-weight: bold;
+    color: #054360;
+    padding-bottom: 30px;
+    letter-spacing: 4px;
+}
+
+.about-us .about-baragraph{
+    font-size: 15px;
+    color: #0a618a;
+    line-height: 35px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    min-height: 230px;
+}
+
+.about-us .bord{
+    border: 2px solid #054360;
+    width: 400px;
+}
+
+
+
+
+
+
+
+/************************ Satrt section schools ***********************/
+.schools {
+padding-top: 50px;
+}
+
+.schools .schools-cont-cor{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F2F2F2;
+    height: 370px;
+    /*min-width: 330px;*/
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.schools .school-content img{
+ width: 150px;
+ padding-top: 25px;
+ 
+}
+
+.schools .head-h-schools {
+    color: #054360;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.schools .school-content{
+  /*background-color: #F2F2F2;*/
+  /*height: 370px;*/
+  /*max-width: 330px;*/
+  /*border-radius: 15px;*/
+  /*margin: 20px;*/
+    /*margin: 0 auto*/
+
+}
+
+.schools .text-deve{
+margin-left: 40px;
+}
+
+ .schools  .school-name{
+    color: #054360;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+ }
+
+.schools .clas-dif{
+    font-size: 16px;
+    color: #0a618a;
+}
+
+
+.schools .schools-button-link a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    letter-spacing: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #053460, #0a618a);
+}
+
+.schools .schools-button-link a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    letter-spacing: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #0a618a, #0a618a);
+}
+
+
+
+/*.schools .schools-button-link a:hover{*/
+    /*text-decoration: none;*/
+    /*color: white;background-color: #0a618a;*/
+    /*letter-spacing: 2px;*/
+    /*padding: 20px;*/
+    /*padding-left: 80px;*/
+    /*padding-right: 80px;*/
+    /*border-radius: 30px;*/
+/*}*/
+
+@media (max-width: 336px) {
+    .schools .schools-button-link a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        letter-spacing: 2px;
+        /*padding-left: 80px;*/
+        /*padding-right: 80px;*/
+        border-radius: 30px;
+    }
+}
+
+.schools .schools-button-link{
+    margin-top: 45px;
+}
+
+.schools .schols-line-head p{
+    font-size: 28px;
+    font-weight: bold;
+    color: #054360;
+}
+
+.schools .schols-line-head img{
+    padding-left: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    /*padding-top: 40px;*/
+    width: 95%;
+    /*margin-top: -3px;*/
+
+}
+
+.schools .nav-tabs {
+     border-bottom: 0;
+    float: right;
+    padding-right: 45px;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #054360;
+    border-bottom: none;
+    border-radius: 9px 9px 0 0;
+}
+
+
+.nav-tabs li a{
+    background-color: #F2F2F2;
+}
+
+@media(max-width:1024px){
+   .scols-line img{
+      display: none;
+   }
+}
+
+@media(max-width:700px){
+    .schools .school-content{
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+/******************** Start ssection Prtners ****************/
+
+
+
+/* Start Testmonials */
+/*
+.testmonials{
+    background: url(../pic/p-bakcground.jpg) center no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    margin-top: 35px;
+}
+
+.testmonials .screen-on-partners{
+    background-color: rgba(23, 24, 25, 0.71);
+    padding: 50px 0;
+}*/
+
+/*.testmonials:before {*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*background: rgba(23, 24, 25, 0.71);*/
+    /*margin-top: 35px;*/
+/*}*/
+
+#quote-carousel {
+    padding: 0  10px;
+}
+
+.testmonials #quote-carousel .carousel-indicators {
+    position: relative;
+    min-height: 100px;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+.testmonials #quote-carousel .carousel-indicators li {
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    vertical-align: middle;
+    margin: 10px;
+    opacity: .5;
+    width: 70px;
+    height: 70px;
+}
+
+.testmonials #quote-carousel .carousel-indicators .active {
+    transform: scale(1.4);
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    border: 3px solid #053460;
+    opacity: 1
+}
+
+.testmonials img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+.testmonials .active img{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+
+.testmonials .item  .box-test-wbe{
+    border: 2px solid #fff;
+    padding: 20px;
+    margin:40px 0 0 0;
+    min-height: 50px;
+}
+
+.testmonials .item h4 {
+    background: #053460;
+    width: 28%;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 3px;
+    margin: auto;
+    position: absolute;
+    top: 11%;
+    left: 0;
+    right: 0;
+    /*
+    font-family: 'Open Sans', sans-serif;
+    */font-family: 'lato' , sans-serif;
+    z-index: 9999;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    /*
+    font-family: 'Fontawesome';
+    */
+    font-family: 'lato' , sans-serif;
+    float: left;
+    margin-right: 10px;
+    color: #053460;
+}
+
+.item blockquote p:after {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+    color: #053460;
+}
+
+.item blockquote p:after {
+    content: "\f10d";
+    /*
+    font-family: 'Fontawesome';
+    */
+    font-family: 'lato' , sans-serif;
+    float: right;
+    margin-right: 10px;
+    transform: rotate(180deg);
+}
+
+.testmonials p{
+    /*margin: 5% 5%;*/
+    font-size: 18px;
+    font-weight: 300;
+}
+
+@media (max-width: 992px) {
+    .testmonials .item  .box-test-wbe{
+        border: 2px solid #fff;
+        padding: 20px;
+        margin:40px 0 0 0;
+        min-height: 150px;
+    }
+}
+
+@media (max-width: 620px) {
+    .testmonials .item  .box-test-wbe{
+        border: 2px solid #fff;
+        padding: 20px;
+        margin:40px 0 0 0;
+        min-height: 200px;
+    }
+
+}
+
+@media (max-width: 386px) {
+    .testmonials .item  .box-test-wbe{
+        border: 2px solid #fff;
+        padding: 20px;
+        margin:40px 0 0 0;
+        min-height: 250px;
+    }
+
+}
+
+@media (max-width: 330px) {
+    .testmonials .item  .box-test-wbe{
+        border: 2px solid #fff;
+        padding: 20px;
+        margin:40px 0 0 0;
+        min-height: 300px;
+    }
+
+}
+
+@media (max-width: 499px) {
+
+    /*.testmonials {*/
+        /*padding-top: 77px !important;*/
+    /*}*/
+
+    .testmonials #quote-carousel .carousel-indicators li {
+        width: 75px !important;
+        height: 75px !important;
+        display: block !important;
+        margin-left: 34% !important;
+    }
+
+    .testmonials .item  h4 {
+        background: #053460;
+        width: 41% !important;
+        /*top: -4%  !important;*/
+    }
+
+    .testmonials .item  p {
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width:500px) and (max-width:767px) {
+    .testmonials #quote-carousel .carousel-indicators li {
+        width: 75px !important;
+        height: 75px !important;
+        margin: 0 5px
+    }
+
+    .testmonials .item  h4 {
+        background: #053460;
+        width: 30% !important;
+        top: -9%  !important;
+    }
+
+    .testmonials .item  p {
+        margin-top: 15px;
+    }
+}
+
+
+
+.schools-social-curoser  li {
+    list-style: none;
+    float: left;
+    padding-left: 30px;
+}
+
+ .schools-social-curoser{
+    cursor: pointer;
+}
+
+.schools-social-curoser li a{
+    color: white;
+}
+
+/******************Start SECTION FOOOTER **********************/
+
+
+.school-footer{
+   background: url('/backend/website/pic/footer/footertexture.png')  center  no-repeat;
+   width: 100%;
+   min-height: 120px;
+  -webkit-background-size: cover;
+  -Moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-top: 4px solid #054360;
+  color: #054360;
+  font-weight: bold;
+  padding: 20px 0;
+  }
+
+.school-footer .logo img{
+    width: 130px;
+    margin-bottom: 23px;
+}
+
+
+.school-footer .school-footer-logo{
+    padding: 30px;
+}
+
+.logo-powered{
+    font-size: 18px;
+    color: white;
+    float: left;
+    white-space: nowrap;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.logo-logo-logo{
+    width: 90px;
+    float: right;
+
+}
+
+.logo-powered1{
+    font-size: 18px;
+    color: white;
+    float: left;
+    white-space: nowrap;
+    margin-left: 80px;
+    margin-top: -30px;
+    display: none;
+}
+.logo-logo-logo1{
+    width: 90px;
+    margin-right: 150px;
+    display: none;
+}
+
+
+
+.school-footer  li{
+    list-style: none;
+    float: left;
+    padding-left: 30px;
+    margin-top: 40px;
+
+}
+
+.school-footer .ava-on img {
+    width: 40px;
+    padding: 0;
+}
+
+.fot-info{
+    margin-bottom: -20px;
+}
+
+
+.school-footer .left-loc{
+    float: left;
+}
+
+.school-footer .right-msg{
+    float: left;
+}
+
+@media (max-width: 991px) {
+    .ava-on{
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 581px) {
+    .fot-info .left-loc,.fot-info .left-loc .right-msg{
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .fot-info{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+.school-footer .footer-schools-social ul{
+    padding-top: 40px;
+    padding-left: 40%;
+}
+
+.school-footer .footer-schools-social a{
+    text-decoration: none;
+}
+
+
+.school-footer .footer-schools-social  .fa-facebook-official{
+   color: #2667C1;
+   border-radius: 40px; 
+}
+
+
+.school-footer .footer-schools-social .fa-instagram{
+    color: #9090CE;
+}
+
+
+.school-footer .footer-schools-social .fa-youtube-play{
+    color: #F75656;
+}
+
+.school-footer .ulist li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.footer-sub-b button{
+    background: linear-gradient(to right, #053460, #0a618a);
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 36px;
+}
+
+
+.footer-sub-b button:hover{
+    background: linear-gradient(to right, #0a618a, #0a618a);
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 36px;
+}
+
+.school-footer .ulist li {
+    list-style: none;
+    color: white;
+    float: left;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.school-footer .ulist ul {
+    list-style: none;
+    color: white;
+    float: left;
+    padding-left: 24%;
+    padding-top: 30px;
+}
+
+.the-padding{
+    padding: 30px;
+}
+
+/* ---------- LIVE-CHAT ---------- */
+
+#live-chat {
+    bottom: 0;
+    font-size: 14px;
+    right: 24px;
+    position: fixed;
+    width: 300px;
+}
+
+#live-chat header {
+    background: #053460;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px 24px;
+}
+
+#live-chat h4:before {
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    margin: 0 8px 0 0;
+    width: 8px;
+}
+
+#live-chat h4 {
+    font-size: 12px;
+}
+
+#live-chat h5 {
+    font-size: 10px;
+}
+
+#live-chat form {
+    padding: 24px;
+}
+
+#live-chat input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px;
+    outline: none;
+    width: 234px;
+}
+
+.chat-message-counter {
+    background: #e62727;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    left: 0;
+    line-height: 28px;
+    margin: -15px 0 0 -15px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 28px;
+}
+
+.chat-close {
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 0 0 0;
+    text-align: center;
+    width: 16px;
+}
+
+.chat {
+    background: #fff;
+    display: none;
+}
+
+.chat-history {
+    height: 252px;
+    padding: 4px 24px;
+}
+
+.chat-message {
+}
+
+.chat-message img {
+    border-radius: 50%;
+    float: left;
+}
+
+.chat-message-content {
+    margin-left: 56px;
+}
+
+.chat-time {
+    float: right;
+    font-size: 10px;
+}
+
+.chat-feedback {
+    font-style: italic;
+    margin: 0 0 0 80px;
+}
+
+.message-body{
+    height: 100px;
+    width: 234px;
+    resize: none;
+    box-shadow: none;
+    padding-left: 8px;
+
+}
+.contact-us-text{
+    font-size: 16px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+
+@media(max-width:650px){
+   .school-footer .school-footer-input1{
+      width: 90%;
+   }
+      .school-footer .school-footer-input2{
+      width: 90%;
+   }
+   
+      .school-footer .school-footer-input3{
+      width: 90%;
+   }
+}
+
+@media(max-width:550px){
+  .school-footer .ulist ul li {
+   padding: 12px;
+  }
+   .school-footer{
+      height: 225px;
+   }
+  .school-footer .footer-schools-social .fa-facebook-official{
+      margin-left: -80px;
+   }
+   
+   .school-footer .footer-schools-social .fa-instagram{
+    margin-left: -40px;
+   }
+    .the-padding{
+        padding: 0px;
+    }
+    .school-footer .school-footer-logo{
+        padding: 0px;
+    }
+    .school-footer .ulist ul{
+        padding-top: 0%;
+        margin-bottom: 0px;
+    }
+    #live-chat header {
+       background-image: url("https://image.flaticon.com/icons/svg/126/126501.svg") ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 10px;
+        float: right;
+        margin-bottom: 1px;
+        padding: 20px 20px;
+        background-color: white;
+        border-radius: 50% 50% 50% 10%;
+
+
+    }
+    .fa-plus-circle{
+        display: none;
+    }
+    .contact-us-text{
+        display: none;
+    }
+    .fa-minus-circle{
+        display: none;
+    }
+}
+
+
+@media (min-width: 794px) {
+    .schools-partners .header-school img{
+        display: none;
+    }
+
+}
+
+.chat-body{
+    opacity: 1;
+    visibility: visible;
+    width: 300px;
+    height: 461px;
+    right: 39px;
+    padding-top: 0px;
+    bottom: 0%;
+    top: auto;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: transparent;
+    margin-left: 0px;
+}
+.chat-description{
+    margin: 10px 10px 20px;
+    color: #545d6b;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: pre-wrap;
+    max-width: 240px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+.chat-write-message{
+    overflow-y: auto;
+    height: 95px;
+    resize: none;
+    display: block;
+}
+.chat-input{
+    background: transparent;
+    width: 238px;
+}
+
+@media (max-width: 1036px) {
+    .drop-d-m-user{
+        display: block;
+    }
+}
+
+/******************** start section social media *******************/
+
+
+
+#socialarea {
+    position: fixed;
+    left: 0;
+    top: 48%;
+    width: 40px;
+    z-index: 9999;
+}
+
+#socialarea:hover {
+    cursor: pointer;
+}
+
+#socialarea ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#socialarea li {
+    text-align: center;
+    width: 100%;
+}
+
+#socialarea li a {
+    line-height: 40px;
+    color: white;
+}
+
+#socialarea .facebook_social {
+    background-color: #3a579a;
+    transition: 400ms;
+}
+
+#socialarea .facebook_social:hover {
+    background-color: #2b4071;
+}
+
+#socialarea .twitter_social {
+    background-color: #00abf0;
+    transition: 400ms;
+}
+
+#socialarea .twitter_social:hover {
+    background-color: #0184b9;
+}
+
+#socialarea .googleplus_social {
+    background-color: #df4a32;
+    transition: 400ms;
+}
+
+#socialarea .googleplus_social:hover {
+    background-color: #bc3e2a;
+}
+
+#socialarea .pinterest_social {
+    background-color: #cd1c1f;
+    transition: 400ms;
+}
+
+#socialarea .pinterest_social:hover {
+    background-color: #b0171a;
+}
+
+#socialarea .linkedin_social {
+    background-color: #127bb6;
+    transition: 400ms;
+}
+
+#socialarea .linkedin_social:hover {
+    background-color: #0c5680;
+}
+
+.arrow_social {
+    opacity: 0;
+    color: white;
+    transition: 400ms;
+}
+
+.arrow_social:hover {
+    color: white;
+}
+
+.btnopenclose {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 20px !important;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    opacity: 0;
+    transition: 400ms;
+}
+
+#socialarea:hover .arrow_social,
+#socialarea:hover .btnopenclose {
+    opacity: 1;
+}
+
+.remove {
+    left: -35px !important;
+    position: relative;
+    transition: 400ms;
+}
+
+.as_selected {
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(180deg);
+    opacity: 1;
+    margin: initial;
+}
+
+.as_selected .arrow_social {
+    opacity: 1;
+    left: 0px;
+    position: relative;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

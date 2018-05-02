@@ -1,0 +1,1408 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+
+input:focus, input:focus, select:focus, button:focus, select:focus{
+    outline: none;
+}
+
+/*global */
+
+/****START HOME****/
+
+.home-school-abdo{
+    background: url('../pic/home/cover.png')  center fixed no-repeat;
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 100px;
+    -webkit-background-size: cover;
+    -Moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 4px #053460 solid;
+}
+
+
+
+.home-school-abdo .home-school-ul-right .home-school-panel  li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #053460;
+    cursor: pointer;
+    font-size: 15px;
+    /* font-weight: bold; */
+}
+
+.home-school-abdo .home-school-ul-right .home-school-panel  li:hover{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #0a618a;
+    cursor: pointer;
+
+    /*font-size: 15px;*/
+    /* font-weight: bold; */
+}
+
+
+
+/*.home-school-abdo .home-header-nave{*/
+/*padding-left: 70px;*/
+/*padding-right: 70px;*/
+/*}*/
+
+
+.home-school-abdo .home-school-ul-right ul .home-register-button{
+    margin-left: 40px;
+    margin-top: 22px;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background: linear-gradient(to right, #053460 , #0a618a);
+
+}.home-school-abdo .home-school-ul-right ul .home-register-button:hover{
+     margin-left: 40px;
+     margin-top: 22px;
+     color: white;
+     padding: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+     border-bottom-right-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     border-top-left-radius: 20px;
+     background: linear-gradient(to right, #0a618a , #0a618a);
+ }
+
+
+.home-school-abdo .home-school-ul-right ul .home-icon i{
+    font-size: 20px;
+}
+
+.home-school-abdo .home-school-slogan{
+    margin-top: 130px;
+}
+
+.home-school-abdo .home-school-slogan .up-slogan {
+    letter-spacing: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.home-school-abdo .home-school-slogan .down-slogan {
+    letter-spacing: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.home-school-abdo .home-school-slogan .up-slogan{
+    font-size: 30px;
+}
+
+.home-school-abdo .home-school-slogan .down-slogan{
+    font-size: 47px;
+    letter-spacing: 25px;
+}
+
+
+/*section dropDown*/
+
+#small-bars{
+    display: none;
+    margin-left: 30px;
+}
+
+#small-bars{
+    margin-top: 40px;
+    color: #054360;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+
+.cover-bars{
+
+    display: none;
+    background-color: #0a618a;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 100;
+    right: .01%;
+}
+
+
+.cover-bars ul li a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cover-bars ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 0;
+}
+
+
+.cover-bars ul li:hover {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 0;
+    background-color: #207FAA;
+}
+
+@media(max-width:1035px){
+    .home-school-panel{
+        display: none;
+    }
+    #small-bars{
+        display: block;
+    }
+
+}
+
+.home-school-abdo .home-slogan button {
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: linear-gradient(to right, #053460, #0a618a);
+}
+
+
+.home-school-abdo .home-slogan button:hover {
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: linear-gradient(to right, #0a618a, #0a618a);
+}
+
+
+
+
+.home-school-abdo .home-slogan .slogan-button-schools  a{
+    text-decoration: none;
+    color: white;
+}
+
+/* user logo & droppDown */
+.home-school-abdo .home-school-ul-right .home-school-panel button {
+    border-color: #053460;
+}
+
+.my-dropdown {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 30px;
+    float: right;
+}
+
+
+.my-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.my-dropdown {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.dropdown__item {
+    align-self: center;
+    margin-left: .5em !important; /*damn you bootstrap!*/
+}
+
+.my-dropdown > .name {
+    overflow: hidden;
+    width: 0%;
+    transition: width 300ms ease-out;
+}
+
+.my-dropdown > .name-shown {
+    width: 60%;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.home-school-abdo .home-school-ul-right .home-school-panel .drop-d-m-user {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 17px;
+    color: #053460;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.home-school-panel a {
+    text-decoration: none;
+    color: #053460;
+}
+
+/* drop down lang */
+.home-school-abdo .home-school-ul-right .home-school-panel .li-1 {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #053460;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.home-school-abdo .home-header-nave .second-dropDown .block-dropDown {
+    display: none;
+    background-color: #0a618a;
+    padding-left: 0px;
+    padding-right: 9px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 100;
+}
+
+.home-school-abdo .home-header-nave .second-dropDown .block-dropDown li {
+    float: none;
+    color: red;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+    font-weight: 100;
+}
+
+.dropdownMenu2{
+    background-color: #214969;
+}
+
+.dropdownMenu2 li:hover{
+    text-decoration: none;
+    background-color: #0a618a;
+}
+
+
+.cover-bars ul li a:hover {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #0a618a;
+}
+
+.cover-bars ul li:hover{
+    background-color: #0a618a;
+
+}
+
+/*Login Pupup*/
+.modal-content{
+    background: url(../pic/popup/Texture.png) fixed center no-repeat ;
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid #053460;
+}
+
+.modal-content .fa-times{
+    padding: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal-content .plogin-popup-school{
+    font-size: 45px;
+    letter-spacing: 15px;
+    color: #053460;
+    padding-bottom: 40px;
+}
+.modal-content .mail-login-school{
+    background: none;
+    border: 2px solid #053460;
+    width: 70%;
+    min-height: 50px;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.modal-content  .popup-putton-school button{
+    background-color: #053460;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.modal-content .ul-popup-options ul li a{
+    color: black;
+    cursor: pointer;
+}
+
+#poppop{
+    margin: 0 auto;
+}
+
+.modal-content .ul-popup-options ul {
+    width: 70%;
+    margin: auto;
+}
+
+.modal-content .ul-popup-options ul li {
+    list-style: none;
+    float: left;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+
+.but-s-reg-ter button{
+    background: none;
+    border: 0;
+    padding-top: 100px;
+    color: #053460;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: bold;
+    /*margin-bottom: 60px;*/
+}
+
+
+
+/************** schools and filter  ***********************/
+
+/* https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+
+.range-slider {
+    position: relative;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.price-slider h4{
+    color: #053460;
+}
+
+.rang-p-bod{
+    margin: 0 auto;
+    /*width: 90%;*/
+    background-color: red;
+}
+
+.range-slider input {
+    pointer-events: none;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 15px;
+    width: 200px;
+    outline: none;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.range-slider input::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+}
+
+.range-slider input::-moz-range-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 10;
+    -moz-appearance: none;
+    width: 9px;
+}
+
+.range-slider input::-moz-range-track {
+    position: relative;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 1);
+    border: 0;
+}
+
+.range-slider input:last-of-type::-moz-range-track {
+    -moz-appearance: none;
+    background: none transparent;
+    border: 0;
+}
+
+.range-slider input[type=range]::-moz-focus-outer {
+    border: 0;
+}
+
+.rangeValue {
+    width: 30px;
+}
+
+.output {
+    position: absolute;
+    border:1px solid #999;
+    min-width: 40px;
+    height: 30px;
+    text-align: center;
+    color: #999;
+    border-radius: 4px;
+    display: inline-block;
+    font: bold 15px/30px Helvetica, Arial;
+    bottom: 75%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 0px 5px;
+}
+
+.output.outputTwo {
+    left: 100%;
+}
+
+/*.container {*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*-webkit-transform: translate(-50%, -50%);*/
+    /*transform: translate(-50%, -50%);*/
+/*}*/
+
+input[type=range] {
+    -webkit-appearance: none;
+    background: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+}
+
+input[type=range]::-ms-track {
+    height: 5px;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-moz-range-track {
+    height: 5px;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #555;
+    margin-top: -5px;
+    position: relative;
+    z-index: 10000;
+}
+
+input[type=range]::-ms-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #555;
+    margin-top: -5px;
+    position: relative;
+    z-index: 10000;
+}
+
+input[type=range]::-moz-range-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #053460;
+    margin-top: -5px;
+    position: relative;
+    z-index: 10000;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+.full-range,
+.incl-range {
+    width: 100%;
+    height: 5px;
+    left: 0;
+    top: 21px;
+    position: absolute;
+    background: #0a618a;
+}
+
+.price-slider{
+    margin-top: 30px;
+}
+
+.incl-range {
+    background: #053460;
+}
+/***** all schools filtetr ******/
+
+.all-schools-as{
+    background: url("../pic/allschhols/FilterTexture.png")  no-repeat fixed;
+    -webkit-background-size: cover;
+    -Moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+
+
+
+
+.all-schools-as .as-schools-filter .as-schools-filter-search  input{
+
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+.all-schools-as .school-filter-city{
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background: none;
+    margin-top: 30px;
+}
+
+
+.all-schools-as .dropdown-filter-student{
+    margin-top: 30px;
+}
+
+
+.dropdown-filter-student p{
+    color: #053460;
+    cursor: pointer;
+}
+
+.dropdown-filter-student .dropdown-stydent-type{
+    color: #0a618a;
+    z-index: 99999;
+}
+
+.dropdown-filter-student .dropdown-school-type{
+    display: none;
+    color: #0a618a;
+    z-index: 99999;
+}
+
+.dropdown-filter-student .dropdown-certificates-type{
+    display: none;
+    color: #0a618a;
+    z-index: 99999;
+}
+
+.dropdown-filter-student .dropdown-languages-type{
+    display: none;
+    color: #0a618a;
+    z-index: 99999;
+}
+
+.dropdown-filter-student .dropdown-education-type{
+    color: #0a618a;
+    z-index: 99999;
+    display: none;
+
+}
+
+.dropdown-filter-student .dropdown-other-type{
+    color: #0a618a;
+    z-index: 99999;
+    display: none;
+
+}
+
+
+
+.all-schools-as .all-schools-main-page{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.all-schools-as .all-schools-main-page a{
+    text-decoration: none;
+}
+
+
+
+
+.all-schools-main-page .school-content{
+    background-color: #F2F2F2;
+    min-height: 250px;
+    width: 83%;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.all-schools-main-page .school-content button {
+    margin-bottom: 14px;
+    background-color: #00A0B0;
+    color: white;
+    letter-spacing: 1px;
+    border: 0px #0a618a solid;
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.all-schools-main-page .school-content button:hover{
+    background-color: #0287a1;
+
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.btn-labny{
+    background-color:#00A0B0;
+    color:#fff;
+}
+
+.all-schools-main-page .school-content:hover{
+    background-color: white;
+
+    box-shadow: 0px 0px 10px #505050;
+}
+
+.all-schools-main-page .school-content img{
+    vertical-align: middle;
+    width: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.all-schools-main-page .school-name {
+    color: #054360;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.all-schools-main-page .clas-dif {
+    font-size: 16px;
+    color: #0a618a;
+    /*padding-bottom: 20px;*/
+}
+
+@media (max-width: 1024px) {
+
+    .all-schools-main-page .school-content {
+        background-color: #F2F2F2;
+        /*min-height: 370px;*/
+        /*width: 50%;*/
+        border-radius: 15px;
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .all-schools-main-page .school-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 414px) {
+
+    .all-schools-main-page .school-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.schools-cont-cor{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F2F2F2;
+    /*height: 370px;*/
+    /*min-width: 330px;*/
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+
+.schools-cont-cor:hover{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ffffff;
+    /*height: 370px;*/
+    /*min-width: 330px;*/
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 40px -11px;
+}
+
+
+
+.all-schools-main-page .im-box-a-sch{
+    width: 160px;
+}
+
+.appr-r-e {
+    color: #d9534f;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.ede-at{
+    color: gray;
+}
+
+.den-r-e{
+    color: #d9534f;
+}
+
+.schools-cont-cor button {
+    margin-bottom: 6px;
+    background-color: #00A0B0;
+    color: white;
+    letter-spacing: 1px;
+    border: 0px #0a618a solid;
+    position: absolute;
+    right: 32px;
+    top: 15px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+
+
+.schools-cont-cor .love-to {
+    margin-bottom: 6px;
+    /*background-color: #00A0B0;*/
+    color: #ec9898;
+    letter-spacing: 1px;
+    border: 0px #0a618a solid;
+    position: absolute;
+    /*right: 32px;*/
+    font-size: 45px;
+    top: 15px;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+
+/******************Start SECTION FOOOTER **********************/
+
+.school-footer{
+    background: url('../pic/footer/footertexture.png')  center  no-repeat;
+    width: 100%;
+    min-height: 120px;
+    -webkit-background-size: cover;
+    -Moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.school-footer .school-footer-logo{
+    padding: 30px;
+}
+
+.logo-powered{
+    font-size: 18px;
+    color: white;
+    float: left;
+    white-space: nowrap;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+.logo-logo-logo{
+    width: 90px;
+    float: right;
+
+}
+.logo-powered1{
+    font-size: 18px;
+    color: white;
+    float: left;
+    white-space: nowrap;
+    margin-left: 80px;
+    margin-top: -30px;
+    display: none;
+}
+.logo-logo-logo1{
+    width: 90px;
+    margin-right: 150px;
+    display: none;
+}
+
+.school-footer .school-footer-input1{
+    background: none;
+    margin-top: 50px;
+    height: 50px;
+    width: 50%;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #439CB7;
+}
+
+
+.school-footer .school-footer-input2{
+    background: none;
+    margin-top: 20px;
+    height: 50px;
+    width: 50%;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #439CB7;
+}
+
+.school-footer .school-footer-input3{
+    background: none;
+    margin-top: 20px;
+    height: 160px;
+    width: 50%;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #439CB7;
+    padding-top:  2px;
+}
+
+
+
+
+.school-footer .school-footer-textarea textarea{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    resize: none;
+}
+
+.school-footer .footer-schools-social li{
+    list-style: none;
+    float: left;
+    padding-left: 30px;
+
+}
+
+.school-footer .footer-schools-social ul{
+    padding-top: 40px;
+    padding-left: 40%;
+}
+
+.school-footer .footer-schools-social a{
+    text-decoration: none;
+}
+
+
+.school-footer .footer-schools-social  .fa-facebook-official{
+    color: #2667C1;
+    border-radius: 40px;
+}
+
+
+.school-footer .footer-schools-social .fa-instagram{
+    color: #9090CE;
+}
+
+
+.school-footer .footer-schools-social .fa-youtube-play{
+    color: #F75656;
+}
+
+.school-footer .ulist li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.footer-sub-b button{
+    background: linear-gradient(to right, #053460, #0a618a);
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 36px;
+}
+
+
+.footer-sub-b button:hover{
+    background: linear-gradient(to right, #0a618a, #0a618a);
+    border: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 36px;
+}
+
+.school-footer .ulist li {
+    list-style: none;
+    color: white;
+    float: left;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.school-footer .ulist ul {
+    list-style: none;
+    color: white;
+    float: left;
+    padding-left: 24%;
+    padding-top: 30px;
+}
+
+
+
+@media(max-width:650px){
+    .school-footer .school-footer-input1{
+        width: 90%;
+    }
+    .school-footer .school-footer-input2{
+        width: 90%;
+    }
+
+    .school-footer .school-footer-input3{
+        width: 90%;
+    }
+}
+
+@media(max-width:550px){
+    .school-footer .ulist ul li {
+        padding: 12px;
+    }
+    .school-footer{
+        height: 800px;
+    }
+    .school-footer .footer-schools-social .fa-facebook-official{
+        margin-left: -80px;
+    }
+
+    .school-footer .footer-schools-social .fa-instagram{
+        margin-left: -40px;
+    }
+}
+
+
+@media (min-width: 794px) {
+    .schools-partners .header-school img{
+        display: none;
+    }
+
+}
+
+
+/************** compare ************************/
+
+
+{
+    margin: 10% auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product
+{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.product:hover{
+    border: 1px solid #EAEAEA;
+    cursor: pointer;
+}
+
+.product span
+{
+    padding: 5px 0;
+    display: block;
+}
+
+.compare-wrap
+{
+    opacity: 0;
+    transition: opacity 0.2s;
+    padding-top: 10px;
+}
+
+.compare-wrap input[type="checkbox"], label
+{
+    cursor: pointer
+}
+
+.product:hover .compare-wrap
+{
+    opacity: 1;
+}
+
+.color
+{
+    width:100px;
+    height:100px;
+    margin: 0 auto;
+}
+
+.button
+{
+    background: #00A0B0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align:center;
+    cursor: pointer;
+}
+
+.button:hover
+{
+    background: #09BEC1;
+}
+
+
+
+/*#compare-summary*/
+/*{*/
+/*background:#fff;*/
+/*padding:10px;*/
+/*border-radius:5px;*/
+/*text-align:center;*/
+/*position:absolute;*/
+/*!*right:0;*!*/
+/*display:flex;*/
+/*flex-direction: row;*/
+/*justify-content: center;*/
+/*transition: opacity 0.5s;*/
+/*transform: translateY(-50%);*/
+/*box-shadow:0 6px 6px 0 rgba(0,0,0,0.2)*/
+/*}*/
+
+
+
+#compare-summary
+{
+    background:#fff;
+    border-radius:5px;
+    text-align:center;
+    flex-direction: row;
+
+    display:flex;
+    justify-content: center;
+    transition: opacity 0.5s;
+    transform: translateY(-50%);
+    box-shadow:0 16px 8px 0 rgba(0,0,0,0.2);
+    position:fixed;
+    padding:7px;bottom:0;
+    right:0;
+    margin-bottom: -47px;
+    width:100%;
+
+}
+
+#compare-summary img{
+    width: 77px;
+    margin-left: 10px;
+}
+
+
+/*#compare-summary*/
+/*{*/
+/*background:#fff;*/
+/*!*padding:10px;*!*/
+/*border-radius:5px;*/
+/*text-align:center;*/
+/*!*position:absolute;*!*/
+/*!*right:0;*!*/
+/*display:flex;*/
+/*flex-direction: row;*/
+/*justify-content: center;*/
+/*transition: opacity 0.5s;*/
+/*transform: translateY(-50%);*/
+/*box-shadow:0 6px 6px 0 rgba(0,0,0,0.2)*/
+/*border-width:3px;*/
+/*border-style:solid;*/
+/*position:fixed;*/
+/*padding:7px;bottom:0;*/
+/*right:0;max-width:450px;*/
+/*margin-bottom: -94px;*/
+
+/*}*/
+
+#abdo-box-amir{
+    position: fixed;
+    z-index: 999;
+}
+
+#compare-summary .color
+{
+    margin: 10px;
+}
+
+#clear {
+    padding-top: 5px;
+    color: #C44D58;
+    cursor: pointer;
+}
+
+.hide
+{
+    opacity: 0;
+}
+
+.lime{background:#D1F2A5}
+.honeydew{background:#EFFAB4}
+.orange-sherbert{background:#FFC48C}
+.orange-feeling{background:#FF9F80}
+.watermelon{background:#F56991}
+.aoi{background:#69D2E7}
+.touch-the-blade{background:#AAC92D}
+.saxophone{background:#EEBB11}
+
+
+
+#compare-corral>div{
+    float:left;
+}
+
+/* ---------- LIVE-CHAT ---------- */
+
+#live-chat {
+    bottom: 0;
+    font-size: 14px;
+    right: 24px;
+    position: fixed;
+    width: 300px;
+    z-index: 999;
+}
+
+#live-chat header {
+    background: #053460;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px 24px;
+}
+
+#live-chat h4:before {
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    margin: 0 8px 0 0;
+    width: 8px;
+}
+
+#live-chat h4 {
+    font-size: 12px;
+}
+
+#live-chat h5 {
+    font-size: 10px;
+}
+
+#live-chat form {
+    padding: 24px;
+}
+
+#live-chat input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px;
+    outline: none;
+    width: 234px;
+}
+
+.chat-message-counter {
+    background: #e62727;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    height: 28px;
+    left: 0;
+    line-height: 28px;
+    margin: -15px 0 0 -15px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 28px;
+}
+
+.chat-close {
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 0 0 0;
+    text-align: center;
+    width: 16px;
+}
+
+.chat {
+    background: #fff;
+    display: none;
+}
+
+.chat-history {
+    height: 252px;
+    padding: 4px 24px;
+}
+
+.chat-message {
+}
+
+.chat-message img {
+    border-radius: 50%;
+    float: left;
+}
+
+.chat-message-content {
+    margin-left: 56px;
+}
+
+.chat-time {
+    float: right;
+    font-size: 10px;
+}
+
+.chat-feedback {
+    font-style: italic;
+    margin: 0 0 0 80px;
+}
+
+.message-body{
+    height: 100px;
+    width: 234px;
+    resize: none;
+    box-shadow: none;
+    padding-left: 8px;
+
+}
